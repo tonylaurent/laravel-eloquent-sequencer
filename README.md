@@ -1,8 +1,8 @@
 # Laravel Eloquent Sequencer
 
-[![Latest Version](https://img.shields.io/github/release/gurgentil/laravel-eloquent-sequencer.svg?style=flat-square)](https://github.com/gurgentil/laravel-eloquent-sequencer/releases)
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/gurgentil/laravel-eloquent-sequencer/run-tests?label=tests)
-[![Quality Score](https://img.shields.io/scrutinizer/g/gurgentil/laravel-eloquent-sequencer.svg?style=flat-square)](https://scrutinizer-ci.com/g/gurgentil/laravel-eloquent-sequencer)
+[![Latest Version](https://img.shields.io/github/release/tonylaurent/laravel-eloquent-sequencer.svg?style=flat-square)](https://github.com/tonylaurent/laravel-eloquent-sequencer/releases)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/tonylaurent/laravel-eloquent-sequencer/run-tests?label=tests)
+[![Quality Score](https://img.shields.io/scrutinizer/g/tonylaurent/laravel-eloquent-sequencer.svg?style=flat-square)](https://scrutinizer-ci.com/g/tonylaurent/laravel-eloquent-sequencer)
 [![MIT Licensed](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
 
 This package allows you to create and manage sequences for your Eloquent models.
@@ -12,7 +12,7 @@ This package allows you to create and manage sequences for your Eloquent models.
 Install the package via composer:
 
 ```bash
-composer require gurgentil/laravel-eloquent-sequencer
+composer require tonylaurent/laravel-eloquent-sequencer
 ```
 
 ## Configuration
@@ -20,7 +20,7 @@ composer require gurgentil/laravel-eloquent-sequencer
 To publish the configuration file run:
 
 ```bash
-php artisan vendor:publish --provider="Gurgentil\LaravelEloquentSequencer\LaravelEloquentSequencerServiceProvider"
+php artisan vendor:publish --provider="TonyLaurent\LaravelEloquentSequencer\LaravelEloquentSequencerServiceProvider"
 ```
 
 ### Configuration parameters
@@ -69,7 +69,7 @@ protected static $sequenceableKeys = [
 In the example below, a task list may have many tasks.
 
 ``` php
-use Gurgentil\LaravelEloquentSequencer\Traits\Sequenceable;
+use TonyLaurent\LaravelEloquentSequencer\Traits\Sequenceable;
 use Illuminate\Database\Eloquent\Model;
 
 class Task extends Model
