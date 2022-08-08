@@ -1,6 +1,6 @@
 <?php
 
-namespace Gurgentil\LaravelEloquentSequencer\Tests\Models;
+namespace TonyLaurent\LaravelEloquentSequencer\Tests\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

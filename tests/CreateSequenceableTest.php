@@ -1,8 +1,8 @@
 <?php
 
-namespace Gurgentil\LaravelEloquentSequencer\Tests;
+namespace TonyLaurent\LaravelEloquentSequencer\Tests;
 
-use Gurgentil\LaravelEloquentSequencer\Exceptions\SequenceValueOutOfBoundsException;
+use TonyLaurent\LaravelEloquentSequencer\Exceptions\SequenceValueOutOfBoundsException;
 
 class CreateSequenceableTest extends TestCase
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Gurgentil\LaravelEloquentSequencer\Tests\Models;
+namespace TonyLaurent\LaravelEloquentSequencer\Tests\Models;
 
-use Gurgentil\LaravelEloquentSequencer\Traits\Sequenceable;
+use TonyLaurent\LaravelEloquentSequencer\Traits\Sequenceable;
 use Illuminate\Database\Eloquent\Model;
 
 class Item extends Model

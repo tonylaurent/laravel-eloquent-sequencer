@@ -1,9 +1,9 @@
 <?php
 
-namespace Gurgentil\LaravelEloquentSequencer\Tests\Strategies;
+namespace TonyLaurent\LaravelEloquentSequencer\Tests\Strategies;
 
-use Gurgentil\LaravelEloquentSequencer\SequencingStrategy;
-use Gurgentil\LaravelEloquentSequencer\Tests\TestCase;
+use TonyLaurent\LaravelEloquentSequencer\SequencingStrategy;
+use TonyLaurent\LaravelEloquentSequencer\Tests\TestCase;
 
 class StrategyOnUpdateTest extends TestCase
 {

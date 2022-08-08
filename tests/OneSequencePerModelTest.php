@@ -1,8 +1,8 @@
 <?php
 
-namespace Gurgentil\LaravelEloquentSequencer\Tests;
+namespace TonyLaurent\LaravelEloquentSequencer\Tests;
 
-use Gurgentil\LaravelEloquentSequencer\Tests\Models\Item;
+use TonyLaurent\LaravelEloquentSequencer\Tests\Models\Item;
 
 class OneSequencePerModelTest extends TestCase
 {

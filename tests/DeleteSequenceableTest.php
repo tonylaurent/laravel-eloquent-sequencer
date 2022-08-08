@@ -1,6 +1,6 @@
 <?php
 
-namespace Gurgentil\LaravelEloquentSequencer\Tests;
+namespace TonyLaurent\LaravelEloquentSequencer\Tests;
 
 class DeleteSequenceableTest extends TestCase
 {

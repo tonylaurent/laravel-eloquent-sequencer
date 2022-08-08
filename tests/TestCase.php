@@ -1,10 +1,10 @@
 <?php
 
-namespace Gurgentil\LaravelEloquentSequencer\Tests;
+namespace TonyLaurent\LaravelEloquentSequencer\Tests;
 
-use Gurgentil\LaravelEloquentSequencer\ServiceProvider;
-use Gurgentil\LaravelEloquentSequencer\Tests\Models\Group;
-use Gurgentil\LaravelEloquentSequencer\Tests\Models\Item;
+use TonyLaurent\LaravelEloquentSequencer\ServiceProvider;
+use TonyLaurent\LaravelEloquentSequencer\Tests\Models\Group;
+use TonyLaurent\LaravelEloquentSequencer\Tests\Models\Item;
 use Orchestra\Testbench\TestCase as OrchestraTestCase;
 
 class TestCase extends OrchestraTestCase
