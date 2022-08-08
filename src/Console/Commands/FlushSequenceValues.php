@@ -1,6 +1,6 @@
 <?php
 
-namespace Gurgentil\LaravelEloquentSequencer\Console\Commands;
+namespace TonyLaurent\LaravelEloquentSequencer\Console\Commands;
 
 use Illuminate\Support\Facades\DB;
 

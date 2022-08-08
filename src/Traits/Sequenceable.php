@@ -1,9 +1,9 @@
 <?php
 
-namespace Gurgentil\LaravelEloquentSequencer\Traits;
+namespace TonyLaurent\LaravelEloquentSequencer\Traits;
 
-use Gurgentil\LaravelEloquentSequencer\Exceptions\SequenceValueOutOfBoundsException;
-use Gurgentil\LaravelEloquentSequencer\SequencingStrategy;
+use TonyLaurent\LaravelEloquentSequencer\Exceptions\SequenceValueOutOfBoundsException;
+use TonyLaurent\LaravelEloquentSequencer\SequencingStrategy;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Collection;

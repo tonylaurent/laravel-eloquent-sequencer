@@ -1,9 +1,9 @@
 <?php
 
-namespace Gurgentil\LaravelEloquentSequencer;
+namespace TonyLaurent\LaravelEloquentSequencer;
 
-use Gurgentil\LaravelEloquentSequencer\Console\Commands\FlushSequenceValues;
-use Gurgentil\LaravelEloquentSequencer\Console\Commands\PopulateSequenceValues;
+use TonyLaurent\LaravelEloquentSequencer\Console\Commands\FlushSequenceValues;
+use TonyLaurent\LaravelEloquentSequencer\Console\Commands\PopulateSequenceValues;
 use Illuminate\Support\ServiceProvider as IlluminateServiceProvider;
 
 class ServiceProvider extends IlluminateServiceProvider

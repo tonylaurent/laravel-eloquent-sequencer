@@ -1,6 +1,6 @@
 <?php
 
-namespace Gurgentil\LaravelEloquentSequencer;
+namespace TonyLaurent\LaravelEloquentSequencer;
 
 class SequencingStrategy
 {

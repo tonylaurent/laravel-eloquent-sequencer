@@ -1,6 +1,6 @@
 <?php
 
-namespace Gurgentil\LaravelEloquentSequencer\Exceptions;
+namespace TonyLaurent\LaravelEloquentSequencer\Exceptions;
 
 use InvalidArgumentException;
 
